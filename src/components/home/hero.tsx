@@ -184,7 +184,7 @@ const HomeHero: FC = () => {
                     mb: 3
                   }}
                 >
-                  Oral health is more than just teeth its about dignity, communication, nutrition, and well being. At the Oral Health Literacy Division (OHLID), we&aposre pioneering a digital, inclusive, and sustainable approach to make oral healthcare accessible to every citizen, especially those too often left behind.
+                  Oral health—defined as the ability to smile, chew, and express without pain—is essential to dignity and well-being. SmileAgeIndia is a people-empowering mission promoting oral health as a key to healthy ageing. Amid scarce resources and limited geriatric dental care, we use health literacy to empower communities, caregivers, and systems. By integrating oral health literacy with digital dentistry, SmileAge India makes healthy smiles visible, valued, and accessible. Because oral health is a human right, not a luxury.
                 </Typography>
               </Box>
 
