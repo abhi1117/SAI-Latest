@@ -1,6 +1,4 @@
-//Working
-
-// // components/ContactUs.tsx
+// components/ContactUs.tsx
 import React from "react";
 import theme from '@/config/theme';
 import {
