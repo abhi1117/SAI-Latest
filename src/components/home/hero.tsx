@@ -184,7 +184,7 @@ const HomeHero: FC = () => {
                     mb: 3
                   }}
                 >
-                  Oral health is more than just teeth its about dignity, communication, nutrition, and well being. At the Oral Health Literacy Division (OHLID), we're pioneering a digital, inclusive, and sustainable approach to make oral healthcare accessible to every citizen, especially those too often left behind.
+                  Oral health is more than just teeth its about dignity, communication, nutrition, and well being. At the Oral Health Literacy Division (OHLID), we&aposre pioneering a digital, inclusive, and sustainable approach to make oral healthcare accessible to every citizen, especially those too often left behind.
                 </Typography>
               </Box>
 
