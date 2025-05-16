@@ -42,7 +42,7 @@ const About: FC = () => {
                             }}
                         >
                             <Image
-                                src="/about.jpg"
+                                src="/public/images/ourvision.png"
                                 alt="About SmileAge India"
                                 layout='fill'
                                 style={{

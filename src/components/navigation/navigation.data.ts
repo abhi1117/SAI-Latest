@@ -9,7 +9,7 @@ export const navigations: Navigation[] = [
     label: 'Who We Are',
     path: 'who-we-are',
     children: [
-      { label: 'About', path: 'about' },
+      { label: 'Our Vision', path: 'about' },
       // { label: 'Partners', path: 'partners' },
       { label: 'Message From Founder', path: 'MessageFromFounder' },
       { label: 'Knowledge Partners', path: 'knowledgepartners' },
