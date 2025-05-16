@@ -70,9 +70,8 @@ const data: Mentor[] = [
         linkedin: 'https://www.linkedin.com/in/priyankagudsoorkar',
     },
     {
-        id: 7,
-        photo: '/images/aarushi.png',
-        
+        id: 14,
+        photo: '/aarushi.png',
         name: 'Aarushi Anand',
         category: 'Biomedical Engineering',
         description:
