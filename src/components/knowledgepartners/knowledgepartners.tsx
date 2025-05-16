@@ -71,7 +71,7 @@ const data: Mentor[] = [
     },
     {
         id: 14,
-        photo: '/aarushi.png',
+        photo: '/aarushi.jpg',
         name: 'Aarushi Anand',
         category: 'Biomedical Engineering',
         description:
