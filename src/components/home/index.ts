@@ -1,6 +1,6 @@
 export { default as HomeHero } from './hero'
-export { default as HomePopularCourse } from './projects&publications'
+
 export { default as HomeFeature } from './feature'
 export { default as HomeTestimonial } from './testimonial'
-export { default as HomeOurMentors } from './knowledgeparners'
+
 export { default as HomeNewsLetter } from './newsletter'

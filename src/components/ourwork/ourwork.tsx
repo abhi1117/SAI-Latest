@@ -303,7 +303,7 @@ const Ourwork: React.FC = () => {
                         fontSize: isMobile ? '0.9rem' : '1.1rem'
                     }}
                 >
-                    Together, we are reimagining oral health—from a clinical afterthought to a national movement. Join us in bringing smiles to the forefront of India's public health journey.
+                    Together, we are reimagining oral health—from a clinical afterthought to a national movement. Join us in bringing smiles to the forefront of Indias public health journey.
                 </Typography>
             </Box>
         </Container>

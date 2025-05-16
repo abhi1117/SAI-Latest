@@ -16,10 +16,9 @@ import CloseIcon from '@mui/icons-material/Close'
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism'
 import { StyledButton } from '@/components/styled-button'
 
-const AuthNavigation = () => {
+const AuthNavigation: React.FC = () => {
   const [open, setOpen] = useState(false)
   const theme = useTheme()
-
   return (
     <>
       <StyledButton

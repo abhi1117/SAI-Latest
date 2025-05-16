@@ -164,7 +164,7 @@ const MessageFromFounder: FC = () => {
                                     fontSize: '1rem',
                                 }}
                             >
-                                Through Smile Age India, we are building a people-first, digitally enabled, and ecologically conscious movement to make oral health literacy a national priority. Whether it's using AI to assess oral conditions remotely, delivering eco-friendly hygiene kits to elders, training health workers, or advocating policy change—we are committed to solutions that are inclusive, sustainable, and impact-driven.
+                                Through Smile Age India, we are building a people-first, digitally enabled, and ecologically conscious movement to make oral health literacy a national priority. Whether its using AI to assess oral conditions remotely, delivering eco-friendly hygiene kits to elders, training health workers, or advocating policy change—we are committed to solutions that are inclusive, sustainable, and impact-driven.
                             </Typography>
 
                             <Typography

@@ -183,7 +183,7 @@ const HomeHero: FC = () => {
                     mb: 3
                   }}
                 >
-                  Oral health is more than just teeth—it's about dignity, communication, nutrition, and well-being. At the Oral Health Literacy Division (OHLID), we're pioneering a digital, inclusive, and sustainable approach to make oral healthcare accessible to every citizen, especially those too often left behind.
+                  Oral health is more than just teeth its about dignity, communication, nutrition, and well-being. At the Oral Health Literacy Division (OHLID), we are pioneering a digital, inclusive, and sustainable approach to make oral healthcare accessible to every citizen, especially those too often left behind.
                 </Typography>
               </Box>
 
@@ -200,17 +200,17 @@ const HomeHero: FC = () => {
                     size="large"
                     variant="contained"
                     sx={{
-                      px: 4 ,
+                      px: 4,
                       py: 1.5,
                       fontSize: 16,
                       fontWeight: 600,
                       borderRadius: 2,
-                      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                      boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)',
                       '&:hover': {
-                        transform: 'translateY(-2px)',
-                        boxShadow: '0 6px 16px rgba(0,0,0,0.15)'
+                        transform: 'scale(1.03)',
+                        boxShadow: '0px 6px 24px rgba(0, 0, 0, 0.15)',
                       },
-                      transition: 'all 0.3s ease'
+                      transition: 'all 0.3s ease-in-out',
                     }}
                   >
                     Get Started

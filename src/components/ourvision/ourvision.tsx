@@ -106,7 +106,7 @@ const About: FC = () => {
                                         fontSize: { xs: 16, md: 18 },
                                     }}
                                 >
-                                    At SmileAge India, we believe that oral health is central to human dignity, communication, nutrition, and overall well-being. Yet millions—especially elders in old age homes, children in rural schools, and individuals with limited access to care—suffer silently from preventable oral health issues due to lack of awareness, education, and services. We're here to change that.
+                                    At SmileAge India, we believe that oral health is central to human dignity, communication, nutrition, and overall well-being. Yet millions—especially elders in old age homes, children in rural schools, and individuals with limited access to care—suffer silently from preventable oral health issues due to lack of awareness, education, and services. We are here to change that.
                                 </Typography>
                             </Box>
                         </Box>
