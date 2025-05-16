@@ -11,7 +11,7 @@ const About: FC = () => {
 
     return (
         <Box
-            id="about"
+            id="ourvision"
             sx={{
                 backgroundColor: 'background.paper',
                 py: { xs: 8, md: 12 },
@@ -34,7 +34,7 @@ const About: FC = () => {
                                 '&:before': {
                                     content: '""',
                                     position: 'absolute',
-                                    width: '100%',
+                                    width: '110%',
                                     height: '100%',
                                     background: `linear-gradient(45deg, ${theme.palette.primary.light}10 0%, ${theme.palette.primary.dark}10 100%)`,
                                     zIndex: 1,
@@ -42,7 +42,7 @@ const About: FC = () => {
                             }}
                         >
                             <Image
-                                src="/public/images/ourvision.png"
+                                src="/ourvision.png"
                                 alt="About SmileAge India"
                                 layout='fill'
                                 style={{
