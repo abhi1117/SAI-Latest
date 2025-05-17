@@ -27,6 +27,14 @@ const data: Mentor[] = [
    
     {
         id: 1,
+        photo: '/images/padma.jpeg',
+        name: 'Padma',
+        category: 'Public Health Advocacy',
+        description:
+            'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
+        linkedin: 'https://www.linkedin.com/in/drpadmagadiyar/',
+    }, {
+        id: 2,
         photo: '/images/mridula.png',
         name: 'Mridula Kapil Bhargava',
         category: 'Public Health Advocacy',
@@ -34,15 +42,7 @@ const data: Mentor[] = [
             'A dynamic public health professional with over a decade of dedicated service in healthcare, emphasizing health advocacy and literacy, especially in diabetes.',
         linkedin: 'https://www.linkedin.com/in/mridulakapil',
     },
-    {
-        id: 2,
-        photo: '/images/padma.jpeg',
-        name: 'Padma',
-        category: 'Public Health Advocacy',
-        description:
-            'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
-        linkedin: 'https://www.linkedin.com/in/drpadmagadiyar/',
-    },
+    
     {
         id: 3,
         photo: '/images/amruta.png',
