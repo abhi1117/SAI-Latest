@@ -261,7 +261,7 @@ const Ourwork: React.FC = () => {
                         component="span"
                         fontWeight={900}
                     >
-                        Together, we are reimagining oral health—from a clinical afterthought to a national movement. Join us in bringing smiles to the forefront of the public health journey of all Indians.
+                        Together, we are reimagining oral health—from a clinical afterthought to a national movement for prevention and timely care.Become a part of our projects and help us spread smiles :)
                     </Typography>,
                    
 
