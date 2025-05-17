@@ -251,7 +251,7 @@ const Ourwork: React.FC = () => {
                     variant={isMobile ? "body2" : "body1"}
                     color="text.secondary"
                     sx={{
-                        maxWidth: 800,
+                        maxWidth: 900,
                         mx: 'auto',
                         lineHeight: 1.8,
                         fontSize: isMobile ? '0.9rem' : '1.1rem'
@@ -261,8 +261,8 @@ const Ourwork: React.FC = () => {
                         component="span"
                         fontWeight={900}
                     >
-                        Together, we are reimagining oral health—from a clinical afterthought to a national movement for prevention and timely care.Become a part of our projects and help us spread smiles :)
-                    </Typography>,
+                        Together, we are reimagining oral health—from a clinical afterthought to a national movement for prevention and timely care.<br/>Become a part of our projects and help us spread smiles :)
+                    </Typography>
                    
 
                 </Typography>
