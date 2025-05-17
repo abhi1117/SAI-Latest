@@ -23,24 +23,25 @@ interface Mentor {
 }
 
 const data: Mentor[] = [
-    {
-        id: 1,
-        photo: '/images/padma.jpeg',
-        name: 'Padma',
-        category: 'Public Health Advocacy',
-        description:
-            'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
-        linkedin: 'https://www.linkedin.com/in/drpadmagadiyar/',
-    },
+
    
     {
-        id: 2,
+        id: 1,
         photo: '/images/mridula.png',
         name: 'Mridula Kapil Bhargava',
         category: 'Public Health Advocacy',
         description:
             'A passionate public health innovator focused on improving oral health literacy across diverse communities through tech-driven outreach and policy integration.',
         linkedin: 'https://www.linkedin.com/in/mridulakapil',
+    },
+    {
+        id: 2,
+        photo: '/images/padma.jpeg',
+        name: 'Padma',
+        category: 'Public Health Advocacy',
+        description:
+            'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
+        linkedin: 'https://www.linkedin.com/in/drpadmagadiyar/',
     },
     {
         id: 3,
