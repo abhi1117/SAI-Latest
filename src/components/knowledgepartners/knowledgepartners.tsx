@@ -118,7 +118,7 @@ const data: Mentor[] = [
     {
         id: 11,
        
-        photo: '/images/Yenni.jpeg',
+        photo: '/images/Yenni2.jpeg',
         name: 'Yenni Zhang',
         category: 'Health Strategy & Policy',
         description:
@@ -127,7 +127,7 @@ const data: Mentor[] = [
     },
     {
         id: 12,
-        photo: '/images/Aaravee.jpeg',
+        photo: '/images/aaravee2.jpeg',
         name: 'Aaravee Anand',
         category: 'Medical Innovation',
         description:
