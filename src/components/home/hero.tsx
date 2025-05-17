@@ -1,3 +1,5 @@
+'use client';
+
 import React, { FC } from 'react';
 import Image from 'next/image';
 import Box from '@mui/material/Box';
@@ -7,15 +9,12 @@ import Typography from '@mui/material/Typography';
 import { Link as ScrollLink } from 'react-scroll';
 import { useTheme } from '@mui/material/styles';
 import { SxProps } from '@mui/material/styles';
-import StyledButton from "@mui/material/Button"; // ✅ MUI Button supports sx
-
-
+import StyledButton from '@mui/material/Button';
 
 interface Exp {
   label: string;
   value: string;
   sx?: SxProps;
-
 }
 
 interface ExpItemProps {
@@ -25,24 +24,26 @@ interface ExpItemProps {
 const ExpItem: FC<ExpItemProps> = ({ item }) => {
   const { value, label } = item;
   return (
-    <Box sx={{
-      textAlign: 'center',
-      mb: { xs: 1, md: 0 },
-      px: 2,
-      py: 1,
-      borderRadius: 1,
-      '&:hover': {
-        backgroundColor: 'action.hover',
-        transition: 'background-color 0.3s ease'
-      }
-    }}>
+    <Box
+      sx={{
+        textAlign: 'center',
+        mb: { xs: 1, md: 0 },
+        px: 2,
+        py: 1,
+        borderRadius: 1,
+        '&:hover': {
+          backgroundColor: 'action.hover',
+          transition: 'background-color 0.3s ease',
+        },
+      }}
+    >
       <Typography
         sx={{
           color: 'primary.main',
           mb: 0.5,
           fontSize: { xs: 32, md: 42 },
           fontWeight: 800,
-          lineHeight: 1
+          lineHeight: 1,
         }}
       >
         {value}
@@ -53,7 +54,7 @@ const ExpItem: FC<ExpItemProps> = ({ item }) => {
           color: 'text.secondary',
           fontSize: { xs: 14, md: 16 },
           fontWeight: 500,
-          letterSpacing: 0.5
+          letterSpacing: 0.5,
         }}
       >
         {label}
@@ -71,8 +72,8 @@ const HomeHero: FC = () => {
       sx={{
         backgroundColor: 'background.paper',
         position: 'relative',
-        pt: { xs:0 , md:2},
-        pb: { xs: 0, md:0 },
+        pt: { xs: 0, md: 2 },
+        pb: { xs: 0, md: 0 },
         overflow: 'hidden',
         '&::before': {
           content: '""',
@@ -83,8 +84,8 @@ const HomeHero: FC = () => {
           height: '100%',
           background: `linear-gradient(135deg, ${theme.palette.primary.light} 0%, ${theme.palette.background.paper} 100%)`,
           zIndex: 0,
-          opacity: 0.05
-        }
+          opacity: 0.05,
+        },
       }}
     >
       <Container maxWidth={false} sx={{ maxWidth: '90%' }}>
@@ -98,10 +99,10 @@ const HomeHero: FC = () => {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
-                textAlign: { xs: 'center', md: 'left' }
+                textAlign: { xs: 'center', md: 'left' },
               }}
             >
-              <Box sx={{ mb:2}}>
+              <Box sx={{ mb: 2 }}>
                 <Typography
                   component="h1"
                   sx={{
@@ -114,7 +115,7 @@ const HomeHero: FC = () => {
                     display: 'inline-block',
                     '& span': {
                       position: 'relative',
-                      zIndex: 1
+                      zIndex: 1,
                     },
                     '&::after': {
                       content: '""',
@@ -126,8 +127,8 @@ const HomeHero: FC = () => {
                       backgroundColor: theme.palette.primary.light,
                       opacity: 0.3,
                       zIndex: 0,
-                      transform: 'skew(-12deg)'
-                    }
+                      transform: 'skew(-12deg)',
+                    },
                   }}
                 >
                   <span>
@@ -147,8 +148,8 @@ const HomeHero: FC = () => {
                           height: 6,
                           backgroundColor: theme.palette.primary.light,
                           opacity: 0.3,
-                          borderRadius: 2
-                        }
+                          borderRadius: 2,
+                        },
                       }}
                     >
                       Unreached
@@ -163,44 +164,80 @@ const HomeHero: FC = () => {
                     fontWeight: 700,
                     lineHeight: 1.3,
                     mb: 2,
-                    color: 'text.primary'
+                    color: 'text.primary',
                   }}
                 >
                   Transforming Lives Through
                   <br />
                   Oral Health Literacy
                 </Typography>
-
               </Box>
 
-              <Box id="ourvision" sx={{ mb: 4 }}>
+              <Box id="hero-description" sx={{ mb: 4 }}>
                 <Typography
                   variant="body1"
                   sx={{
                     color: 'text.secondary',
                     lineHeight: 1.6,
                     fontSize: { xs: 16, md: 18 },
-                    fontWeight: "bold",
-                    mb: 3
+                    fontWeight: 'bold',
+                    mb: 3,
                   }}
                 >
-                  Our mouths are the door to our bodies and good oral health is an essential  human right—not a privilege.
+                  Our mouths are the door to our bodies and good oral health is an essential human right—not a privilege.
                   SmileAge India, the Oral Health Literacy Division of the International Health Literacy Association, is on a mission to empower communities to make informed decisions and unite science with compassion and clinical insight with systemic reform—because every person, especially every elder, deserves the right to age with a healthy smile.
                   We welcome partnerships and collaborations across all sectors to advance this mission and create lasting change.
                 </Typography>
               </Box>
 
-              <Box sx={{
-                display: 'flex',
-                flexDirection: { xs: 'column', sm: 'row' },
-                gap: 2,
-                justifyContent: { xs: 'center', md: 'flex-start' },
-                mb: 4
-              }}>
-                <ScrollLink to="ourvision" spy={true} smooth={true} offset={-70} duration={500}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  flexDirection: { xs: 'column', sm: 'row' },
+                  gap: 2,
+                  justifyContent: { xs: 'center', md: 'flex-start' },
+                  mb: 4,
+                }}
+              >
 
+
+<ScrollLink
+                  to="joinus"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                <StyledButton
+                  
+          color="primary"
+          size="large"
+          variant="contained"
+          sx={{
+            px: 4,
+            py: 1.5,
+            fontSize: 16,
+            fontWeight: 600,
+            borderRadius: 2,
+            textTransform: 'none', // 👈 Add this to stop ALL CAPS
+            boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+            '&:hover': {
+              transform: 'translateY(-2px) scale(1.02)',
+              boxShadow: '0 6px 16px rgba(0,0,0,0.15)',
+            },
+            transition: 'all 0.3s ease',
+          }}
+        >
+                  Get In Touch
+          </StyledButton>
                 
+
+
+      
+                  
                 </ScrollLink>
+
+
               </Box>
             </Box>
           </Grid>
@@ -222,21 +259,21 @@ const HomeHero: FC = () => {
                   width: '100%',
                   height: '100%',
                   background: `linear-gradient(135deg, ${theme.palette.primary.light}20 0%, ${theme.palette.primary.dark}20 100%)`,
-                  zIndex: 1
-                }
+                  zIndex: 1,
+                },
               }}
             >
               <Image
                 src="/images/home-hero.jpg"
-                alt="Hero image"
-                layout='fill'
+                alt="Global Health Literacy Summit group photo"
+                layout="fill"
                 priority
                 style={{
                   objectFit: 'cover',
-                  objectPosition: 'center'
+                  objectPosition: 'center',
                 }}
                 quality={100}
-                sizes="(max-width: 768px) 00vw, 50vw"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </Box>
           </Grid>
