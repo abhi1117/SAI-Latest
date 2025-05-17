@@ -200,9 +200,7 @@ const HomeHero: FC = () => {
                   mb: 4,
                 }}
               >
-
-
-<ScrollLink
+              <ScrollLink
                   to="joinus"
                   spy={true}
                   smooth={true}

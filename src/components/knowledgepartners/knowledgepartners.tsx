@@ -165,8 +165,17 @@ const data: Mentor[] = [
         name: 'Dr.Priyanka verma',
         category: 'Consultant Dental Surgeon & Our Volunteer',
         description:
-            'A Public Health Professional, Oral Health Education Activist , Tobacco Control Advocate, Founder at Muskaan Health Organization',
+            'A Public Health Professional, Oral Health Education Activist.',
         linkedin: 'https://www.linkedin.com/in/dr-priyanka-verma-255a7a16a/',
+    },
+    {
+        id: 17,
+        photo: '/images/omer.jpg',
+        name: 'Ömer Sönmez',
+        category: 'Public Health Researcher',
+        description:
+            'Passionate public health advocate with a background in Dentistry and Global Health.',
+        linkedin: 'https://www.linkedin.com/in/sonmezomerfaruk1/',
     },
 ];
     
