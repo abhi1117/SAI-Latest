@@ -162,7 +162,7 @@ const data: Mentor[] = [
     }, {
         id: 16,
         photo: '/images/Priyanka.jpg',
-        name: 'Dr.Priyanka verma',
+        name: 'Dr.Priyanka Verma',
         category: 'Consultant Dental Surgeon & Our Volunteer',
         description:
             'A Public Health Professional, Oral Health Education Activist.',
