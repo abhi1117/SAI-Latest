@@ -56,7 +56,7 @@ const data: Mentor[] = [
         id: 4,
         photo: '/images/parul.png',
         name: 'Parul Sharma',
-        category: 'Volunteering Experienced Dentist',
+        category: 'An experienced Dentist and Our Volunteer',
         description:
             'A commanding officer and dental advisor at the Indian Army for over 25 years , passionate about improving the oral health and well-being of the troops, the geriatric patients, and the community at large.',
         linkedin: 'https://www.linkedin.com/in/parulsharma337',
@@ -163,7 +163,7 @@ const data: Mentor[] = [
         id: 16,
         photo: '/images/Priyanka.jpg',
         name: 'Dr.Priyanka verma',
-        category: 'Consultant Dental Surgeon',
+        category: 'Dentist and Volunteer',
         description:
             'A Public Health Professional, Oral Health Education Activist , Tobacco Control Advocate, Founder at Muskaan Health Organization',
         linkedin: 'https://www.linkedin.com/in/dr-priyanka-verma-255a7a16a/',
