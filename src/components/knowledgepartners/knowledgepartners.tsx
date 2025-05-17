@@ -163,7 +163,7 @@ const data: Mentor[] = [
         id: 16,
         photo: '/images/Priyanka.jpg',
         name: 'Dr.Priyanka verma',
-        category: 'Dentist and Volunteer',
+        category: 'Consultant Dental Surgeon & Our Volunteer',
         description:
             'A Public Health Professional, Oral Health Education Activist , Tobacco Control Advocate, Founder at Muskaan Health Organization',
         linkedin: 'https://www.linkedin.com/in/dr-priyanka-verma-255a7a16a/',

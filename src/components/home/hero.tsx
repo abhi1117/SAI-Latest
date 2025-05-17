@@ -185,9 +185,10 @@ const HomeHero: FC = () => {
                   }}
                 >
                   Our mouths are the door to our bodies and good oral health is an essential human right—not a privilege.
-                  SmileAge India, the Oral Health Literacy Division of the International Health Literacy Association, is on a mission to empower communities to make informed decisions and unite science with compassion and clinical insight with systemic reform—because every person, especially every elder, deserves the right to age with a healthy smile.
-                  We welcome partnerships and collaborations across all sectors to advance this mission and create lasting change.
+                  <br />
+                  SmileAge India, the Oral Health Literacy Division of the International Health Literacy Association, is on a mission to empower communities to make informed decisions and unite science with compassion and clinical insight with systemic reform—because every person, especially every elder, deserves the right to age with a healthy smile. We welcome partnerships and collaborations across all sectors to advance this mission and create lasting change.
                 </Typography>
+
               </Box>
 
               <Box
