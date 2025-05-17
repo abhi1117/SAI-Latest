@@ -28,8 +28,8 @@ const data: Mentor[] = [
     {
         id: 1,
         photo: '/images/padma.jpeg',
-        name: 'Padma',
-        category: 'Public Health Advocacy',
+        name: 'Dr. Padma gadiyar',
+        category: 'Queensland’s 40 under 40 2023',
         description:
             'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
         linkedin: 'https://www.linkedin.com/in/drpadmagadiyar/',
@@ -47,7 +47,7 @@ const data: Mentor[] = [
         id: 3,
         photo: '/images/amruta.png',
         name: 'Amruta Tripathy',
-        category: 'Engineering Leadership',
+        category: 'Healthcare professional & Health Economist',
         description:
             'Passionate healthcare professional with a robust educational foundation in medicine, health economics, management, and research methods.',
         linkedin: 'https://www.linkedin.com/in/amruta-tripathy-5204',
@@ -74,7 +74,7 @@ const data: Mentor[] = [
         id: 6,
         photo: '/images/priyanka.png',
         name: 'Priyanka Gudsoorkar',
-        category: 'Biomedical Research & Teaching',
+        category: 'Public Health Researcher',
         description:
             'Assistant Professor at the University of Cincinnati College of Medicine, and co-founder of Solidarity Dental Foundation, with an aim to improve oral health for all.',
         linkedin: 'https://www.linkedin.com/in/priyankagudsoorkar',
@@ -100,8 +100,8 @@ const data: Mentor[] = [
     {
         id: 9,
         photo: '/images/aman.png',
-        name: 'Aman',
-        category: 'Neuroscience & Public Engagement',
+        name: 'Dr Amman Pabbla',
+        category: 'Public Health Researcher',
         description:
             'A public health researcher in the Netherlands and ex-dentist with 10+ years of experience turning real-world data into strategy—improving healthcare access, equity, and outcomes across systems.',
         linkedin: 'https://www.linkedin.com/in/amy-nederpelt-phd2024',
@@ -110,7 +110,7 @@ const data: Mentor[] = [
         id: 10,
         photo: '/images/shweta.png',
         name: 'Shweta Singh',
-        category: 'Marketing & Communications',
+        category: 'Public Health Researcher',
         description:
             'Technical Head ( Research and Public Health) at ACCESS Health International with expertise on Health care utilization pattern, Adolescent health, Family planning and Health care of Elderly.',
         linkedin: 'https://www.linkedin.com/in/shweta-singh-8a0b0039',
@@ -120,7 +120,7 @@ const data: Mentor[] = [
        
         photo: '/images/Yenni2.jpeg',
         name: 'Yenni Zhang',
-        category: 'Health Strategy & Policy',
+        category: 'passionate about health equity',
         description:
             'Legal and Creative support.',
         linkedin: 'https://nl.linkedin.com/in/yenni-zhang-069033268',
