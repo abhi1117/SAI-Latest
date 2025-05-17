@@ -23,9 +23,18 @@ interface Mentor {
 }
 
 const data: Mentor[] = [
-   
     {
         id: 1,
+        photo: '/images/padma.jpeg',
+        name: 'Padma',
+        category: 'Public Health Advocacy',
+        description:
+            'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
+        linkedin: 'https://www.linkedin.com/in/drpadmagadiyar/',
+    },
+   
+    {
+        id: 11,
         photo: '/images/mridula.png',
         name: 'Mridula Kapil Bhargava',
         category: 'Public Health Advocacy',
@@ -57,7 +66,7 @@ const data: Mentor[] = [
         name: 'Jan Gerrit Schuurman',
         category: 'Science & Art',
         description:
-            'Combines artistic creativity with scientific expertise to consult on complex challenges while promoting accessible science communication.',
+            'Behavioral Scientist and Scholar Activist with a history in fundamental research, industry research, science governance and Risk Communication.',
         linkedin: 'https://www.linkedin.com/in/jan-gerrit-schuurman-16059617',
     },
     {
@@ -66,7 +75,7 @@ const data: Mentor[] = [
         name: 'Priyanka Gudsoorkar',
         category: 'Biomedical Research & Teaching',
         description:
-            'Assistant Professor at University of Cincinnati with expertise in biomedical engineering and translational health research.',
+            'Assistant Professor at the University of Cincinnati College of Medicine, and co-founder of Solidarity Dental Foundation, with an aim to improve oral health for all.',
         linkedin: 'https://www.linkedin.com/in/priyankagudsoorkar',
     },
     {
@@ -84,7 +93,7 @@ const data: Mentor[] = [
         name: 'Sujaya Mehta',
         category: 'Global Health & Innovation',
         description:
-            'Strategic thinker passionate about innovation in global health systems and partnerships for equity-driven impact.',
+            'Faculty at Harvard Macy Institute, MIT, & Solidarity Dental  Passionate about innovation in global health systems and partnerships for equity-driven impact.   ',
         linkedin: 'https://www.linkedin.com/in/sujayamehta',
     },
     {
@@ -93,7 +102,7 @@ const data: Mentor[] = [
         name: 'Aman',
         category: 'Neuroscience & Public Engagement',
         description:
-            'PhD researcher dedicated to bridging neuroscience with public understanding through research, dialogue, and engagement.',
+            'A public health researcher in the Netherlands and ex-dentist with 10+ years of experience turning real-world data into strategy—improving healthcare access, equity, and outcomes across systems.',
         linkedin: 'https://www.linkedin.com/in/amy-nederpelt-phd2024',
     },
     {
@@ -107,16 +116,17 @@ const data: Mentor[] = [
     },
     {
         id: 11,
-        photo: '/images/yenni.jpeg',
+       
+        photo: '/images/aaravee.jpeg',
         name: 'Yenni Zhang',
         category: 'Health Strategy & Policy',
         description:
-            'Emerging expert in public health policy and strategy, driving evidence-based reforms with a global perspective.',
+            'Legal and Creative support',
         linkedin: 'https://nl.linkedin.com/in/yenni-zhang-069033268',
     },
     {
         id: 12,
-        photo: '/images/aaravee.jpeg',
+        photo: '/images/yenni.jpeg',
         name: 'Aaravee Anand',
         category: 'Medical Innovation',
         description:
