@@ -94,7 +94,7 @@ const About: FC = () => {
                                         mb: 2,
                                     }}
                                 >
-                                    SmileAge India is a people-powered initiative dedicated to transforming oral health for underserved and aging populations across India. We work to make oral health literacy a household right—not a hidden privilege—by combining grassroots action, digital innovation, and policy advocacy.
+                                    To create an India where every older adult—regardless of income, location, or ability—has the knowledge, tools, and access to maintain a healthy mouth and a dignified life. We envision a future where oral health is fully integrated into geriatric care, health systems recognize its vital role in ageing well, and no one is left behind due to poor oral health literacy. A nation where every elder can smile, speak, eat, and swallow—without pain, shame, or silence.
                                 </Typography>
 
                                 <Typography

@@ -53,34 +53,42 @@ const ContactUs: React.FC = () => {
       </Box>
 
 
-      <Typography variant="body1" align="center" color="textSecondary" mb={4}>
-        We wouldd love to hear from you!  Please reach us directly through the details below.
+      <Typography variant="body1" align="center" color="textSecondary" mb={6} borderRadius={8}>
+        We wouldd love to hear from you! 
       </Typography>
 
       <Grid container spacing={4} justifyContent="center">
         {/* Contact Form */}
       
         {/* Contact Info */}
-        <Grid item xs={12} md={4}>
-          <Paper elevation={3} sx={{ p: 4, height: "100%" }}>
-            <Typography variant="h6" gutterBottom>
-              Contact Information
-            </Typography>
-            <Divider sx={{ mb: 0 }} />
-            <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
-              {/* <LocationOn color="primary" sx={{ mr: 2 }} />
-              <Typography>1234 Main Street, City, State, ZIP</Typography> */}
-            </Box>
-            <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
-              {/* <Phone color="primary" sx={{ mr: 2 }} />
-              <Typography>+1 (xxx) xxx-xxxx</Typography> */}
-            </Box>
-            <Box sx={{ display: "flex", alignItems: "center" }}>
-              <Email color="primary" sx={{ mr: 2 }} />
-            <Typography>smileageindia1@gmail.com</Typography>
-            </Box>
-          </Paper>
+        <Grid container justifyContent="center" alignItems="center">
+          <Grid item xs={12} md={4}>
+            <Paper elevation={3} sx={{ p: 4, height: '100%', textAlign: 'center' }}>
+              <Typography variant="h6" gutterBottom>
+                Write to us at:
+              </Typography>
+              <Divider sx={{ mb: 3 }} />
+
+              {/* Optional address or phone sections (currently commented out) */}
+              {/* 
+      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 2 }}>
+        <LocationOn color="primary" sx={{ mr: 2 }} />
+        <Typography>1234 Main Street, City, State, ZIP</Typography>
+      </Box>
+      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', mb: 2 }}>
+        <Phone color="primary" sx={{ mr: 2 }} />
+        <Typography>+1 (xxx) xxx-xxxx</Typography>
+      </Box>
+      */}
+
+              <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <Email color="primary" sx={{ mr: 1 }} />
+                <Typography>smileageindia1@gmail.com</Typography>
+              </Box>
+            </Paper>
+          </Grid>
         </Grid>
+
       </Grid>
     </Box>
   );

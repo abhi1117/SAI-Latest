@@ -118,22 +118,40 @@ const MessageFromFounder: FC = () => {
                             sx={{
                                 mb: 3,
                                 fontStyle: 'italic',
-                                fontWeight: 'bold',
-                                lineHeight: 1.6,
+                                fontWeight: 400,
+                                lineHeight: 1.8,
                             }}
                         >
-                            Founder & Chair, SmileAgeIndia (https://www.smileageindia.com )
-                            <br />
-                            Chair, Oral Health Literacy Division, International Health Literacy Association
-                            <br />
-                            Visiting Researcher, Adaptive Rationality, Max Planck Institute for Human Development
-                            <br />
-                            Ex-Visiting Fellow, Erasmus School of Health Policy & Management (ESHPM)
-                            <br />
-                            Healthcare Consultant, iAssisT.Health, Amersfoort, The Netherlands
-                            <br />
-                            Head of Dental Department, Mata Chanan Devi Hospital, Delhi
+                            <Box
+                                component="a"
+                                href="https://linkedin.com/in/anandshalya"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                sx={{
+                                    display: 'block',
+                                    color: 'primary.main',
+                                    textDecoration: 'none',
+                                    '&:hover': { textDecoration: 'underline' }
+                                }}
+                            >
+                                linkedin.com/in/anandshalya
+                            </Box>
+                            <Box
+                                component="a"
+                                href="https://g.page/adashalya"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                sx={{
+                                    display: 'block',
+                                    color: 'primary.main',
+                                    textDecoration: 'none',
+                                    '&:hover': { textDecoration: 'underline' }
+                                }}
+                            >
+                                g.page/adashalya
+                            </Box>
                         </Typography>
+
 
 
                         <Box>
@@ -151,7 +169,7 @@ const MessageFromFounder: FC = () => {
                                     },
                                 }}
                             >
-                                <span>Oral</span>health is a human right—not a privilege. Yet millions across India silently endure preventable oral diseases due to a lack of awareness, access, and education. This is not merely a dental issue; it is a public health crisis with ripple effects on nutrition, dignity, systemic health, and social inclusion.
+                                <span>Oral</span>health is often overlooked in conversations about healthy ageing—yet it is foundational to dignity, nutrition, communication, and quality of life. When older adults struggle to eat, speak, or smile due to tooth loss, pain, or oral infections, it isn’t just a dental issue—it’s a public health failure with far-reaching consequences.
                             </Typography>
 
                             <Typography
@@ -164,7 +182,7 @@ const MessageFromFounder: FC = () => {
                                     fontSize: '1rem',
                                 }}
                             >
-                                Through Smile Age India, we are building a people-first, digitally enabled, and ecologically conscious movement to make oral health literacy a national priority. Whether its using AI to assess oral conditions remotely, delivering eco-friendly hygiene kits to elders, training health workers, or advocating policy change—we are committed to solutions that are inclusive, sustainable, and impact-driven.
+                                Conditions like tooth decay, dry mouth, and gum disease are exacerbated by age-related frailty, chronic illness, and multiple medications. Left unaddressed, they drive malnutrition, social isolation, and even systemic diseases—silently eroding the well-being of our elders.
                             </Typography>
 
                             <Typography
@@ -177,7 +195,7 @@ const MessageFromFounder: FC = () => {
                                     color: theme.palette.mode === 'dark' ? 'text.secondary' : 'text.primary',
                                 }}
                             >
-                                This mission is deeply personal. As India population ages and inequalities deepen, we must ensure that no one is left behind—not rural elders, not schoolchildren, and not caregivers. Health begins in the mouth, but it speaks to the heart of social justice.
+                                SmileAge India is my response to this silent crisis. It is a people-powered, tech-enabled, and ecologically conscious mission to make oral health literacy central to healthy ageing in India. Whether through AI screening tools, sustainable oral hygiene kits, grassroots training, or policy advocacy—we are committed to creating inclusive, sustainable change.
                             </Typography>
 
                             <Typography

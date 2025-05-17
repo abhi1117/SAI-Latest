@@ -36,6 +36,28 @@ const publications = [
     excerpt:
       'Identifies critical factors and evidence supporting integration of oral health in geriatric cancer care frameworks.',
   },
+  {
+    id: 3,
+    title:
+      'Making the Right to Oral Health a Reality for Older Adults',
+    link: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11999419/pdf/main.pdf',
+    tag: 'Policy Report',
+    year: '2025',
+    authors: 'Kakuhiro Fukai et al',
+    excerpt:
+      'Advocates for a rights-based approach to oral healthcare for older populations through global public health strategies.',
+  },
+  {
+    id: 4,
+    title:
+      'Advancing Materiovigilance in Dentistry: A Crucial Step for Patient Safety in India',
+    link: 'https://publication.ida.org.in/partials/PdfDisplay.htm',
+    tag: 'Journal Article',
+    year: '2024',
+    authors: 'Anand S.',
+    excerpt:
+      'Highlights the importance of materiovigilance for dental safety in India and the need for systemic implementation.',
+  },
 ]
 
 const HomePublications = (): ReturnType<() => JSX.Element> => {
@@ -90,7 +112,6 @@ const HomePublications = (): ReturnType<() => JSX.Element> => {
           </Typography>
         </Box>
 
-
         <Grid container spacing={5}>
           {publications.map((pub) => (
             <Grid key={pub.id} item xs={12}>
@@ -110,18 +131,16 @@ const HomePublications = (): ReturnType<() => JSX.Element> => {
                 }}
               >
                 <Typography
-                  variant="body2" // supports custom weight
+                  variant="body2"
                   sx={{
                     fontStyle: 'italic',
-                    fontWeight: 700, // force bold
+                    fontWeight: 700,
                     color: 'text.primary',
                     mb: 1,
                   }}
                 >
                   {pub.year} — {pub.authors}
                 </Typography>
-
-
 
                 <Typography
                   variant="h6"
@@ -141,12 +160,11 @@ const HomePublications = (): ReturnType<() => JSX.Element> => {
                   sx={{
                     color: 'text.secondary',
                     mb: 2,
-                    fontWeight: 600, // Make it bold
+                    fontWeight: 600,
                   }}
                 >
                   {pub.excerpt}
                 </Typography>
-
 
                 <Box display="flex" justifyContent="space-between" alignItems="center">
                   <Button
@@ -159,7 +177,7 @@ const HomePublications = (): ReturnType<() => JSX.Element> => {
                       textTransform: 'none',
                       px: 2.5,
                       py: 1,
-                      border:2,
+                      border: 2,
                       borderRadius: '12px',
                       borderColor: theme.palette.primary.main,
                       color: theme.palette.primary.main,
@@ -177,7 +195,6 @@ const HomePublications = (): ReturnType<() => JSX.Element> => {
                   >
                     Read Full Article
                   </Button>
-
 
                   <Chip
                     label={pub.tag}

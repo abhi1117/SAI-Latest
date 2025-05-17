@@ -184,7 +184,9 @@ const HomeHero: FC = () => {
                     mb: 3
                   }}
                 >
-                  Oral health—defined as the ability to smile, chew, and express without pain—is essential to dignity and well-being. SmileAgeIndia is a people-empowering mission promoting oral health as a key to healthy ageing. Amid scarce resources and limited geriatric dental care, we use health literacy to empower communities, caregivers, and systems. By integrating oral health literacy with digital dentistry, SmileAge India makes healthy smiles visible, valued, and accessible. Because oral health is a human right, not a luxury.
+                  Our mouths are the door to our bodies and good oral health is an essential  human right—not a privilege.
+                  SmileAge India, the Oral Health Literacy Division of the International Health Literacy Association, is on a mission to empower communities to make informed decisions and unite science with compassion and clinical insight with systemic reform—because every person, especially every elder, deserves the right to age with a healthy smile.
+                  We welcome partnerships and collaborations across all sectors to advance this mission and create lasting change.
                 </Typography>
               </Box>
 
@@ -197,26 +199,7 @@ const HomeHero: FC = () => {
               }}>
                 <ScrollLink to="ourvision" spy={true} smooth={true} offset={-70} duration={500}>
 
-                  <StyledButton
-                    color="primary"
-                    size="large"
-                    variant="contained"
-                    sx={{
-                      px: 4 ,
-                      py: 1.5,
-                      fontSize: 16,
-                      fontWeight: 600,
-                      borderRadius: 2,
-                      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-                      '&:hover': {
-                        transform: 'translateY(-2px)',
-                        boxShadow: '0 6px 16px rgba(0,0,0,0.15)'
-                      },
-                      transition: 'all 0.3s ease'
-                    }}
-                  >
-                    Get Started
-                  </StyledButton>
+                
                 </ScrollLink>
               </Box>
             </Box>

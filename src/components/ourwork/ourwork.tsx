@@ -257,12 +257,14 @@ const Ourwork: React.FC = () => {
                         fontSize: isMobile ? '0.9rem' : '1.1rem'
                     }}
                 >
-                    At the <Typography
+                 <Typography
                         component="span"
-                        fontWeight={500}
+                        fontWeight={900}
                     >
-                        Oral Health Literacy Division (OHLID)
-                    </Typography>, we are building a people-centered, digital-first, and community-rooted movement to elevate oral health literacy across India.
+                        Together, we are reimagining oral health—from a clinical afterthought to a national movement. Join us in bringing smiles to the forefront of the public health journey of all Indians.
+                    </Typography>,
+                   
+
                 </Typography>
             </Box>
 
