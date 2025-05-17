@@ -83,9 +83,9 @@ const data: Mentor[] = [
         id: 14,
         photo: '/aarushi.jpg',
         name: 'Aarushi Anand',
-        category: 'Biomedical Engineering',
+        category: 'Creative Designer',
         description:
-            'Social media strategist, Content planner, creator and manager @ Artrushi Specialising in Robotics to integrate psychology with technology for innovative approaches in healthcare services.',
+            'Social media strategist,  Content planner, creator and manager @ Artrushi.',
         linkedin: 'https://www.linkedin.com/in/aarushianand2802',
     },
     {
@@ -129,9 +129,9 @@ const data: Mentor[] = [
         id: 12,
         photo: '/images/aaravee2.jpeg',
         name: 'Aaravee Anand',
-        category: 'Medical Innovation',
+        category: 'Budding Robotic Engineer',
         description:
-            'Medical student and researcher passionate about innovative clinical solutions and health equity.',
+            'Specialising in Robotics to integrate psychology with technology for innovative approaches in healthcare services.',
         linkedin: 'http://linkedin.com/in/aaravee-anand-820632297',
     },
     {
