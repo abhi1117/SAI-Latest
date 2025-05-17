@@ -28,7 +28,7 @@ const data: Mentor[] = [
     {
         id: 1,
         photo: '/images/padma.jpeg',
-        name: 'Dr. Padma gadiyar',
+        name: 'Dr. Padma Gadiyar',
         category: 'Queensland’s 40 under 40 2023',
         description:
             'Founder and CEO of Smilo.ai, an innovative AI-powered app and web-based virtual care platform connecting patients and dental practitioners.',
