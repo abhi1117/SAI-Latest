@@ -34,7 +34,7 @@ const data: Mentor[] = [
     },
    
     {
-        id: 11,
+        id: 2,
         photo: '/images/mridula.png',
         name: 'Mridula Kapil Bhargava',
         category: 'Public Health Advocacy',
@@ -43,7 +43,7 @@ const data: Mentor[] = [
         linkedin: 'https://www.linkedin.com/in/mridulakapil',
     },
     {
-        id: 2,
+        id: 3,
         photo: '/images/amruta.png',
         name: 'Amruta Tripathy',
         category: 'Engineering Leadership',
@@ -84,16 +84,16 @@ const data: Mentor[] = [
         name: 'Aarushi Anand',
         category: 'Biomedical Engineering',
         description:
-            'Aspiring Biomedical Engineer from UT Austin, passionate about bridging innovation, tech, and medicine for community health advancement.',
+            'Content planner, creator and manager',
         linkedin: 'https://www.linkedin.com/in/aarushianand2802',
     },
     {
         id: 8,
         photo: '/images/sujaya.png',
-        name: 'Sujaya Mehta',
+        name: 'Sujay Mehta',
         category: 'Global Health & Innovation',
         description:
-            'Faculty at Harvard Macy Institute, MIT, & Solidarity Dental  Passionate about innovation in global health systems and partnerships for equity-driven impact.   ',
+            'Faculty at Harvard Macy Institute, MIT, & Solidarity Dental  Passionate about innovation in global health systems and partnerships for equity-driven impact.',
         linkedin: 'https://www.linkedin.com/in/sujayamehta',
     },
     {
@@ -117,7 +117,7 @@ const data: Mentor[] = [
     {
         id: 11,
        
-        photo: '/images/aaravee.jpeg',
+        photo: '/images/Yenni.jpeg',
         name: 'Yenni Zhang',
         category: 'Health Strategy & Policy',
         description:
@@ -126,7 +126,7 @@ const data: Mentor[] = [
     },
     {
         id: 12,
-        photo: '/images/yenni.jpeg',
+        photo: '/images/Aaravee.jpeg',
         name: 'Aaravee Anand',
         category: 'Medical Innovation',
         description:
