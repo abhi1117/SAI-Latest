@@ -31,7 +31,7 @@ const data: Mentor[] = [
         name: 'Mridula Kapil Bhargava',
         category: 'Public Health Advocacy',
         description:
-            'A passionate public health innovator focused on improving oral health literacy across diverse communities through tech-driven outreach and policy integration.',
+            'A dynamic public health professional with over a decade of dedicated service in healthcare, emphasizing health advocacy and literacy, especially in diabetes.',
         linkedin: 'https://www.linkedin.com/in/mridulakapil',
     },
     {
@@ -49,7 +49,7 @@ const data: Mentor[] = [
         name: 'Amruta Tripathy',
         category: 'Engineering Leadership',
         description:
-            'Senior Engineering Manager at Honeywell with vast experience in software development and leading cross-functional tech teams toward innovation.',
+            'Passionate healthcare professional with a robust educational foundation in medicine, health economics, management, and research methods.',
         linkedin: 'https://www.linkedin.com/in/amruta-tripathy-5204',
     },
     {
@@ -58,7 +58,7 @@ const data: Mentor[] = [
         name: 'Parul Sharma',
         category: 'Entrepreneurship',
         description:
-            'Founder and CEO of Stthira Corporation, a visionary leader driving sustainable and inclusive innovations through entrepreneurship.',
+            'A commanding officer and dental advisor at the Indian Army for over 25 years , passionate about improving the oral health and well-being of the troops, the geriatric patients, and the community at large.',
         linkedin: 'https://www.linkedin.com/in/parulsharma337',
     },
     {
@@ -85,7 +85,7 @@ const data: Mentor[] = [
         name: 'Aarushi Anand',
         category: 'Biomedical Engineering',
         description:
-            'Content planner, creator and manager.',
+            'Social media strategist, Content planner, creator and manager @ Artrushi Specialising in Robotics to integrate psychology with technology for innovative approaches in healthcare services.',
         linkedin: 'https://www.linkedin.com/in/aarushianand2802',
     },
     {
@@ -112,7 +112,7 @@ const data: Mentor[] = [
         name: 'Shweta Singh',
         category: 'Marketing & Communications',
         description:
-            'Drives impactful communication strategies and marketing efforts at Hack2skill, empowering tech communities through storytelling.',
+            'Technical Head ( Research and Public Health) at ACCESS Health International with expertise on Health care utilization pattern, Adolescent health, Family planning and Health care of Elderly.',
         linkedin: 'https://www.linkedin.com/in/shweta-singh-8a0b0039',
     },
     {
@@ -132,6 +132,23 @@ const data: Mentor[] = [
         category: 'Medical Innovation',
         description:
             'Medical student and researcher passionate about innovative clinical solutions and health equity.',
+        linkedin: 'http://linkedin.com/in/aaravee-anand-820632297',
+    },
+    {
+        id: 15,
+        photo: '/images/Himanshu.jpeg',
+        name: 'Dr. Himanshu Kalia',
+        category: 'Medical Innovation',
+        description:
+            'AI in Healthcare | Digital Twin & Medical Tech Research | Innovator in Digital Healthcare | Consultant in Digital Twin Technologies | Published Researcher with Expertise in Healthtech, Innovation, and Startup',
+        linkedin: 'https://www.linkedin.com/in/hkalia1/',
+    }, {
+        id: 16,
+        photo: '/images/vagisha.jpg',
+        name: 'Dr. Vagisha',
+        category: 'Medical Innovation',
+        description:
+            'A Public Health Professional, Oral Health Education Activist , Tobacco Control Advocate, Founder at Muskaan Health Organization',
         linkedin: 'http://linkedin.com/in/aaravee-anand-820632297',
     },
 ];
