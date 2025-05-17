@@ -29,7 +29,7 @@ class MyDocument extends Document<DocumentProps> {
           <meta property="og:type" content="website" />
 
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:image" content="https://www.smileageindia.com/logo.jpg" />
+          <meta name="twitter:image" content="https://www.smileageindia.com/logo.png" />
 
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.background.paper} />
