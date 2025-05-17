@@ -246,7 +246,7 @@ const HomeHero: FC = () => {
             <Box
               sx={{
                 position: 'relative',
-                height: '100%',
+                height: '95%',
                 minHeight: { xs: 300, md: 500 },
                 borderRadius: 4,
                 overflow: 'hidden',
