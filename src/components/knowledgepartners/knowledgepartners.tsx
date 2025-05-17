@@ -138,7 +138,7 @@ const data: Mentor[] = [
         id: 13,
         photo: '/images/Himanshu.jpeg',
         name: 'Dr. Himanshu Kalia',
-        category: 'Medical Innovation',
+        category: 'Innovator in Digital Healthcare',
         description:
             'AI in Healthcare | Digital Twin & Medical Tech Research | Innovator in Digital Healthcare | Consultant in Digital Twin Technologies | Published Researcher with Expertise in Healthtech, Innovation, and Startup',
         linkedin: 'https://www.linkedin.com/in/hkalia1/',
