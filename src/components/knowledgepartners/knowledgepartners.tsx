@@ -56,7 +56,7 @@ const data: Mentor[] = [
         id: 4,
         photo: '/images/parul.png',
         name: 'Parul Sharma',
-        category: 'Entrepreneurship',
+        category: 'Volunteering Experienced Dentist',
         description:
             'A commanding officer and dental advisor at the Indian Army for over 25 years , passionate about improving the oral health and well-being of the troops, the geriatric patients, and the community at large.',
         linkedin: 'https://www.linkedin.com/in/parulsharma337',
@@ -80,7 +80,7 @@ const data: Mentor[] = [
         linkedin: 'https://www.linkedin.com/in/priyankagudsoorkar',
     },
     {
-        id: 14,
+        id: 7,
         photo: '/aarushi.jpg',
         name: 'Aarushi Anand',
         category: 'Creative Designer',
@@ -92,7 +92,7 @@ const data: Mentor[] = [
         id: 8,
         photo: '/images/sujaya.png',
         name: 'Sujay Mehta',
-        category: 'Global Health & Innovation',
+        category: 'Public Health Researcher and Dentist,specialist in Orofacial pain and Public Health',
         description:
             'Faculty at Harvard Macy Institute, MIT, & Solidarity Dental  Passionate about innovation in global health systems and partnerships for equity-driven impact.',
         linkedin: 'https://www.linkedin.com/in/sujayamehta',
@@ -100,7 +100,7 @@ const data: Mentor[] = [
     {
         id: 9,
         photo: '/images/aman.png',
-        name: 'Dr Amman Pabbla',
+        name: 'Dr Aman Pabbla',
         category: 'Public Health Researcher',
         description:
             'A public health researcher in the Netherlands and ex-dentist with 10+ years of experience turning real-world data into strategy—improving healthcare access, equity, and outcomes across systems.',
@@ -135,7 +135,7 @@ const data: Mentor[] = [
         linkedin: 'http://linkedin.com/in/aaravee-anand-820632297',
     },
     {
-        id: 15,
+        id: 13,
         photo: '/images/Himanshu.jpeg',
         name: 'Dr. Himanshu Kalia',
         category: 'Medical Innovation',
@@ -143,13 +143,30 @@ const data: Mentor[] = [
             'AI in Healthcare | Digital Twin & Medical Tech Research | Innovator in Digital Healthcare | Consultant in Digital Twin Technologies | Published Researcher with Expertise in Healthtech, Innovation, and Startup',
         linkedin: 'https://www.linkedin.com/in/hkalia1/',
     }, {
-        id: 16,
+        id: 14,
         photo: '/images/vagisha.jpg',
         name: 'Dr. Vagisha',
         category: 'Medical Innovation',
         description:
             'A Public Health Professional, Oral Health Education Activist , Tobacco Control Advocate, Founder at Muskaan Health Organization',
         linkedin: 'http://linkedin.com/in/aaravee-anand-820632297',
+    },
+    {
+        id: 15,
+        photo: '/images/yazmin-cole.jpeg',
+        name: 'Yazmin Cole',
+        category: 'Public Health Researcher',
+        description:
+            'Faculty at Harvard Macy Institute, MIT, & Solidarity Dental .Passionate about innovation in global health systems and partnerships for equity-driven impact.',
+        linkedin: 'https://www.linkedin.com/in/yazmin-cole/',
+    }, {
+        id: 16,
+        photo: '/images/Priyanka.jpg',
+        name: 'Dr.Priyanka verma',
+        category: 'Consultant Dental Surgeon',
+        description:
+            'A Public Health Professional, Oral Health Education Activist , Tobacco Control Advocate, Founder at Muskaan Health Organization',
+        linkedin: 'https://www.linkedin.com/in/dr-priyanka-verma-255a7a16a/',
     },
 ];
     
