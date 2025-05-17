@@ -84,7 +84,7 @@ const data: Mentor[] = [
         name: 'Aarushi Anand',
         category: 'Biomedical Engineering',
         description:
-            'Content planner, creator and manager',
+            'Content planner, creator and manager.',
         linkedin: 'https://www.linkedin.com/in/aarushianand2802',
     },
     {
@@ -121,7 +121,7 @@ const data: Mentor[] = [
         name: 'Yenni Zhang',
         category: 'Health Strategy & Policy',
         description:
-            'Legal and Creative support',
+            'Legal and Creative support.',
         linkedin: 'https://nl.linkedin.com/in/yenni-zhang-069033268',
     },
     {
