@@ -177,6 +177,15 @@ const data: Mentor[] = [
             'Passionate public health advocate with a background in Dentistry and Global Health.',
         linkedin: 'https://www.linkedin.com/in/sonmezomerfaruk1/',
     },
+    {
+        id: 18,
+        photo: '/images/abhishek.jpeg',
+        name: 'Abhishek Singh',
+        category: 'Web Developer - Technology',
+        description:
+            "Professional web developer skilled in end-to-end application development, with a strong emphasis on performance, security, and cross-platform compatibility.",
+        linkedin: 'https://www.linkedin.com/in/abhishek-fullstack/',
+    },
 ];
     
 
