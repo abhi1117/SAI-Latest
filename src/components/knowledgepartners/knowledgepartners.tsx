@@ -232,6 +232,24 @@ const data: Mentor[] = [
             "Health economist and Research assistant in Germany with a focus on oral health literacy. Co-Chair of the Oral Health Literacy Interest Division (OHLID) of the International Health Literacy Division (IHLA).",
         linkedin: 'https://www.linkedin.com/in/maria-s-30b2292a0/',
     },
+    {
+        id: 24,
+        photo: '/images/Ghada.jpg',
+        name: 'Ghada Ibrahim',
+        category: 'President PACRT-Geneva The Patient Lab in Oncology',
+        description:
+            "Ghada Ibrahim is President of PACRT-Geneva and a leading voice in patient advocacy for cancer research and care. Based in Switzerland, she champions patient-centric innovation, co-leads PPI projects at IUFRS/CHUV/UNIL, and serves on advisory boards including EUPATI-Switzerland and Inspire2Live, promoting meaningful patient involvement in research, policy, and clinical trials.",
+        linkedin: 'https://www.linkedin.com/in/maria-s-30b2292a0/',
+    },
+    {
+        id: 25,
+        photo: '/images/Maha.jpg',
+        name: 'Maha El Tantawi',
+        category: 'Vice Dean at Alexandria University - Faculty of Dentistry',
+        description:
+            "Global leader in Dental Public Health. Her work spans oral health equity, education, sustainability, and digital innovation. With 200+ publications, she serves on key editorial boards and collaborates with international research and policy networks.",
+        linkedin: 'https://www.linkedin.com/in/maha-el-tantawi-755a4a37/?originalSubdomain=eg',
+    },
 ];
     
 
