@@ -186,6 +186,52 @@ const data: Mentor[] = [
             "Professional web developer skilled in end-to-end application development, with a strong emphasis on performance, security, and cross-platform compatibility.",
         linkedin: 'https://www.linkedin.com/in/abhishek-fullstack/',
     },
+    {
+        id: 19,
+        photo: '/images/Raman.jpg',
+        name: 'Raman Preet',
+        category: 'Dental public health consultant ',
+        description:
+            "Expert public health professional and dental public health consultant with extensive experience in global health research, project coordination, and communication leadership. Currently teaching global health and serving as Equal Opportunity Officer at the Dept of Epidemiology, while supporting EU-funded research at both the Global Health and Sustainable Health units.",
+        linkedin: 'https://www.linkedin.com/in/raman-preet-rs0211h3010/',
+    },
+    {
+        id: 20,
+        photo: '/images/Manu.jpeg',
+        name: 'Manu Mathur',
+        category: 'Professor and Head - Queen Mary University of London',
+        description:
+            "A public health specialist and dental researcher with global experience across health systems. His work spans tobacco control, oral health inequalities, and school nutrition. He leads dental public health at QMUL, contributes to global policy initiatives, and mentors emerging researchers through NHS England and international collaborations.",
+        linkedin: 'http://linkedin.com/in/manu-mathur-7844285',
+    },
+    {
+        id: 21,
+        photo: '/images/Visser.jpeg',
+        name: 'Prof Anita Visser',
+        category: 'Gerodontology ',
+        description:
+            "Professor of Gerodontology at the University of Groningen, is a leading expert in special care dentistry. With decades of clinical, academic, and research experience, she pioneers gerodontology education, interdisciplinary care, and innovation in implantology, elderly oral health, and anxiety counselling.",
+        linkedin: 'https://www.linkedin.com/in/anita-visser-545b7323/',
+    },
+   
+    {
+        id: 22,
+        photo: '/images/Wendy.jpg',
+        name: 'Wendy Thompson',
+        category: 'Dental public health consultant ',
+        description:
+            "Clinical academic and dentist focused on urgent dental care and antimicrobial resistance. She leads global research and education initiatives, including projects in Sub-Saharan Africa and FDI’s award-winning stewardship programme. Her work integrates co-development, advocacy, and clinical practice to reduce antibiotic overuse and prevent infections.",
+        linkedin: 'https://www.linkedin.com/in/wendy-thompson-5b482437/',
+    },
+    {
+        id: 23,
+        photo: '/images/Maria.jpg',
+        name: 'Maria Schierbaum',
+        category: 'Dental public health consultant ',
+        description:
+            "Health economist and Research assistant in Germany with a focus on oral health literacy. Co-Chair of the Oral Health Literacy Interest Division (OHLID) of the International Health Literacy Division (IHLA).",
+        linkedin: 'https://www.linkedin.com/in/maria-s-30b2292a0/',
+    },
 ];
     
 
